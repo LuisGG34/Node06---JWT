@@ -1,0 +1,23 @@
+{
+  "name": "desafio06-nodejs",
+  "version": "1.0.0",
+  "description": "Trabajo desafio latam backend validad ingresos con rutas protegidas y JWT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "pg": "^8.13.1",
+    "pg-format": "^1.0.4"
+  }
+}
